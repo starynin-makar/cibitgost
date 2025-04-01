@@ -1,0 +1,45 @@
+/* Уменьшаем отступы в навигации */
+.navbar {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.navbar-brand {
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+}
+
+.nav-link {
+    padding: 0.25rem 0.75rem !important;
+}
+
+/* Уменьшаем отступы в основном контенте */
+main.py-4 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/* Уменьшаем отступы в контейнере */
+.container-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Стили для Select2 */
+.select2-container .select2-selection--single {
+    height: 38px !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 0.375rem !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 36px !important;
+    padding-left: 12px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px !important;
+} 

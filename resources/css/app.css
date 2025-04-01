@@ -1,0 +1,35 @@
+@import 'ratings.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container-custom {
+        @apply container mx-auto px-4 sm:px-6 lg:px-8 py-8;
+    }
+
+    .btn-primary {
+        @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .btn-secondary {
+        @apply bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .btn-blue {
+        @apply bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .btn-red {
+        @apply bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .form-select {
+        @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50;
+    }
+
+    .form-checkbox {
+        @apply rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50;
+    }
+}
